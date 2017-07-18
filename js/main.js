@@ -23,3 +23,12 @@ else{
     $('.icon-menu').css("background", "transparent").fadeIn("1000") ;
 }
 });
+
+jQuery(document).ready(function($) {  
+
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+$(window).load(function(){
+  $('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+
+});
