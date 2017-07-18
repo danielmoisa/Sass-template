@@ -23,8 +23,3 @@ else{
     $('.icon-menu').css("background", "transparent").fadeIn("1000") ;
 }
 });
-
-//Preloader
-setTimeout(function(){
-    document.body;
-},500);
