@@ -26,6 +26,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 @media (min-width: 48em) {
   html, body {
     font-size: 16px;
